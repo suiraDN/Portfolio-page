@@ -1,0 +1,130 @@
+.skills-container {
+	margin-top: 2em;
+	display: flex;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+
+.circular-progress {
+	margin: auto;
+	position: relative;
+}
+
+.circular-progress,
+.circular-progress:before,
+.circular-progress:after {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.circular-progress:before,
+.circular-progress:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.circular-progress:before {
+	padding: 0.5em;
+	line-height: 140px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.circular-progress:after {
+	font-size: 0.8rem;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 230px;
+}
+
+.html {
+	background: linear-gradient(0deg, #f1642c 40%, rgba(241, 100, 44, 0.3) 50%);
+	transform: rotate(165deg);
+}
+
+.html:before,
+.html:after {
+	color: #f1642c;
+}
+
+.html:before {
+	background: #ffffff content-box;
+	transform: rotate(-165deg);
+	content: "90%";
+}
+
+.html:after {
+	background: linear-gradient(transparent 50%, #ffffff 50%);
+	content: "html5";
+	transform: rotate(-165deg) scale(1.5);
+}
+
+.css {
+	background: linear-gradient(0deg, #25afde 40%, rgba(37, 175, 222, 0.3) 50%);
+	transform: rotate(150deg);
+}
+
+.css:before,
+.css:after {
+	color: #25afde;
+}
+
+.css:before {
+	background: #ffffff content-box;
+	transform: rotate(-150deg);
+	content: "83%";
+}
+
+.css:after {
+	background: linear-gradient(transparent 50%, #fff 50%);
+	content: "css3";
+	transform: rotate(-150deg) scale(1.5);
+}
+
+.javascript {
+	background: linear-gradient(0deg, #a690ff 40%, rgba(166, 144, 255, 0.3) 50%);
+	transform: rotate(99deg);
+}
+
+.javascript:before,
+.javascript:after {
+	color: #a699ff;
+}
+
+.javascript:before {
+	background: #ffffff content-box;
+	transform: rotate(-99deg);
+	content: "50%";
+}
+
+.javascript:after {
+	background: linear-gradient(transparent 50%, #fff 50%);
+	content: "javascript";
+	transform: rotate(-99deg) scale(1.5);
+}
+
+.react {
+	background: linear-gradient(0deg, #767bb3 40%, rgba(118, 123, 179, 0.3) 50%);
+	transform: rotate(60deg);
+}
+
+.react:before,
+.react:after {
+	color: #767bb3;
+}
+
+.react:before {
+	background: #fff content-box;
+	transform: rotate(-60deg);
+	content: "35%";
+}
+
+.react:after {
+	background: linear-gradient(transparent 50%, #fff 50%);
+	content: "React";
+	transform: rotate(-60deg) scale(1.5);
+}
