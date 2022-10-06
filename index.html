@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="skills.css" />
 		<link
 			rel="stylesheet"
 			href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
@@ -14,24 +15,31 @@
 			rel="stylesheet"
 		/>
 		<script src="./app.js" defer></script>
-		<title>Portfolio</title>
+		<title>Portfolio DN</title>
 	</head>
 
 	<body>
 		<header>
-			<a href="#" class="logo"><img src="./img/dn.png" alt="DN" /></a>
+			<a href="#" class="logo"><img src="./img/dnn.png" alt="DN" /></a>
 			<div class="bx bx-menu" id="menu-icon"></div>
 
 			<ul class="navlist">
 				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#services">Services</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<!-- <li><a href="#service">Service</a></li> -->
 				<li><a href="#contact">Contact</a></li>
 			</ul>
-			<a href="#" class="cv-btn">Download CV</a>
+			<a
+				href="./img/Front-End Darius Navickas.pdf"
+				target="_blank"
+				class="cv-btn"
+				>Download CV</a
+			>
 		</header>
 
+		<!-- HOME -->
 		<section class="home" id="home">
 			<div class="home-text">
 				<h3>Hello, I'm</h3>
@@ -42,15 +50,290 @@
 					accusamus omnis esse cum assumenda.
 				</p>
 				<div class="social">
-					<a href="#"><i class="bx bxl-linkedin"></i></a>
-					<a href="#"><i class="bx bxl-github"></i></a>
+					<a
+						href="https://www.linkedin.com/in/darius-navickas-56078b1b6"
+						target="_blank"
+						><i class="bx bxl-linkedin"></i
+					></a>
+					<a href="https://github.com/suiraDN" target="_blank"
+						><i class="bx bxl-github"></i
+					></a>
 					<a href="#"><i class="bx bxl-gmail"></i></a>
+					<a href="#" class="tooltip"
+						><i class="bx bx-phone"></i
+						><span class="tooltiptext">+37067632152</span></a
+					>
 				</div>
-				<a href="#" class="btn">About Me</a>
+				<a href="#about" class="btn">About Me</a>
 			</div>
 			<div class="home-img">
-				<img src="./img/main.png" alt="me" />
+				<!-- <img src="./img/main.png" alt="me" /> -->
+				<img src="./img/me_img.jpg" alt="me" />
 			</div>
 		</section>
+
+		<!-- sub SERVICE -->
+		<section class="sub-service">
+			<div class="items">
+				<div class="sub-box">
+					<div class="sub-img">
+						<img src="img/target.svg" />
+					</div>
+					<h3>Pixel Perfect</h3>
+					<p>
+						Most common methods for designing websites that work well on desktop
+						is responsive and adaptive design.
+					</p>
+				</div>
+
+				<div class="sub-box">
+					<div class="sub-img">
+						<img src="img/brush.svg" />
+					</div>
+					<h3>High Quality</h3>
+					<p>
+						Most common methods for designing websites that work well on desktop
+						is responsive and adaptive design.
+					</p>
+				</div>
+
+				<div class="sub-box">
+					<div class="sub-img">
+						<img src="img/energy.svg" />
+					</div>
+					<h3>Awesome Idea</h3>
+					<p>
+						Most common methods for designing websites that work well on desktop
+						is responsive and adaptive design.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section class="about" id="about">
+			<div class="about-img">
+				<img src="img/about.jpg" />
+			</div>
+
+			<div class="about-text">
+				<h3>I'm a Designer</h3>
+				<h2>I Can Design Anything You Want</h2>
+				<p>
+					Hello there! I'm a web designer, and I'm very passionate and dedicated
+					to my work. With 20 years experience as a professional web developer,
+					I have acquired the skills and knowledge necessary to make your
+					project a success. I enjoy every step of the design process, from
+					discussion and collaboration.
+				</p>
+				<a href="#" class="btn">Hire Me</a>
+			</div>
+		</section>
+
+		<!-- Portfolio -->
+
+		<section class="portfolio" id="portfolio">
+			<div class="heading">
+				<h3>Portfolio</h3>
+				<h2>My Amazing Work</h2>
+				<p>
+					Most common methods for designing websites that work well on desktop
+					is <br />
+					responsive and adaptive design
+				</p>
+			</div>
+
+			<div class="portfolio-content">
+				<div class="col">
+					<img src="img/work1.jpg" />
+					<div class="layer">
+						<h3>Web Design</h3>
+						<h5>Popup</h5>
+					</div>
+				</div>
+
+				<div class="col">
+					<img src="img/work2.jpg" />
+					<div class="layer">
+						<h3>Web Design</h3>
+						<h5>Popup</h5>
+					</div>
+				</div>
+
+				<!-- <div class="col">
+					<img src="img/work3.jpg" />
+					<div class="layer">
+						<h3>Web Design</h3>
+						<h5>Popup</h5>
+					</div>
+				</div>
+
+				<div class="col">
+					<img src="img/work4.jpg" />
+					<div class="layer">
+						<h3>Web Design</h3>
+						<h5>Popup</h5>
+					</div>
+				</div>
+
+				<div class="col">
+					<img src="img/work5.jpg" />
+					<div class="layer">
+						<h3>Web Design</h3>
+						<h5>Popup</h5>
+					</div>
+				</div>
+
+				<div class="col">
+					<img src="img/work6.jpg" />
+					<div class="layer">
+						<h3>Web Design</h3>
+						<h5>Popup</h5>
+					</div>
+				</div> -->
+			</div>
+		</section>
+
+		<!-- Service -->
+		<!-- <section class="service" id="service">
+			<div class="heading">
+				<h3>Service</h3>
+				<h2>What I Do For Clients</h2>
+				<p>
+					Most common methods for designing websites that work well on desktop
+					is <br />
+					responsive and adaptive design
+				</p>
+			</div>
+
+			<div class="service-content">
+				<div class="row">
+					<div class="s s-one">
+						<img src="img/anchor.svg" />
+					</div>
+					<h3>Web Design</h3>
+					<h5>Starts From <span>$99</span></h5>
+					<p>
+						Web design refers to the design of websites that are displayed on
+						the internet. It usually refers to the user experience aspects of
+						website development
+					</p>
+				</div>
+
+				<div class="row">
+					<div class="s s-tow">
+						<img src="img/physics.svg" />
+					</div>
+					<h3>Web Design</h3>
+					<h5>Starts From <span>$99</span></h5>
+					<p>
+						Web design refers to the design of websites that are displayed on
+						the internet. It usually refers to the user experience aspects of
+						website development
+					</p>
+				</div>
+
+				<div class="row">
+					<div class="s s-three">
+						<img src="img/contact.svg" />
+					</div>
+					<h3>Web Design</h3>
+					<h5>Starts From <span>$99</span></h5>
+					<p>
+						Web design refers to the design of websites that are displayed on
+						the internet. It usually refers to the user experience aspects of
+						website development
+					</p>
+				</div>
+
+				<div class="row">
+					<div class="s s-four">
+						<img src="img/web.svg" />
+					</div>
+					<h3>Web Design</h3>
+					<h5>Starts From <span>$99</span></h5>
+					<p>
+						Web design refers to the design of websites that are displayed on
+						the internet. It usually refers to the user experience aspects of
+						website development
+					</p>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- Skills -->
+		<section class="skills" id="skills">
+			<div class="heading">
+				<h2>My skills</h2>
+			</div>
+
+			<div class="skills-box">
+				<div class="skills-container">
+					<div class="circular-progress html"></div>
+					<div class="circular-progress css"></div>
+					<div class="circular-progress javascript"></div>
+					<div class="circular-progress react"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section class="contact" id="contact">
+			<div class="center">
+				<h1>Let's talk about everything</h1>
+				<p>Don't like forms? Send me an email.</p>
+			</div>
+			<div class="contact-content">
+				<div class="column left">
+					<form>
+						<div class="form-group">
+							<input
+								type="text"
+								name="name"
+								id="name"
+								placeholder="Your Name"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="Your Email"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<input
+								type="text"
+								name="subject"
+								id="subject"
+								placeholder="Your Subject"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<textarea
+								name="message"
+								id="message"
+								placeholder="Your Message"
+								required
+							></textarea>
+						</div>
+						<button type="submit" class="btn-md">Send Message</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Ends -->
+		<footer class="footer">
+			<div class="ends">
+				<p>Made with love by Darius Navickas © 2022</p>
+			</div>
+		</footer>
+
+		<script src="https://unpkg.com/scrollreveal"></script>
 	</body>
 </html>
