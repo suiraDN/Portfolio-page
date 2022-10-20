@@ -42,13 +42,13 @@
 }
 
 .html {
-	background: linear-gradient(0deg, #f1642c 40%, rgba(241, 100, 44, 0.3) 50%);
+	background: linear-gradient(0deg, #f75023 40%, rgba(241, 100, 44, 0.3) 50%);
 	transform: rotate(165deg);
 }
 
 .html:before,
 .html:after {
-	color: #f1642c;
+	color: #f75023;
 }
 
 .html:before {
@@ -64,13 +64,13 @@
 }
 
 .css {
-	background: linear-gradient(0deg, #25afde 40%, rgba(37, 175, 222, 0.3) 50%);
+	background: linear-gradient(0deg, #f0dc50 40%, rgb(240, 220, 80, 0.3) 50%);
 	transform: rotate(150deg);
 }
 
 .css:before,
 .css:after {
-	color: #25afde;
+	color: #f0dc50;
 }
 
 .css:before {
@@ -87,7 +87,7 @@
 
 .javascript {
 	background: linear-gradient(0deg, #a690ff 40%, rgba(166, 144, 255, 0.3) 50%);
-	transform: rotate(99deg);
+	transform: rotate(120deg);
 }
 
 .javascript:before,
@@ -97,34 +97,78 @@
 
 .javascript:before {
 	background: #ffffff content-box;
-	transform: rotate(-99deg);
-	content: "50%";
+	transform: rotate(-120deg);
+	content: "61%";
 }
 
 .javascript:after {
 	background: linear-gradient(transparent 50%, #fff 50%);
 	content: "javascript";
-	transform: rotate(-99deg) scale(1.5);
+	transform: rotate(-120deg) scale(1.5);
 }
 
 .react {
-	background: linear-gradient(0deg, #767bb3 40%, rgba(118, 123, 179, 0.3) 50%);
-	transform: rotate(60deg);
+	background: linear-gradient(0deg, #61dafb 40%, rgb(97, 218, 251, 0.3) 50%);
+	transform: rotate(90deg);
 }
 
 .react:before,
 .react:after {
-	color: #767bb3;
+	color: #61dafb;
 }
 
 .react:before {
 	background: #fff content-box;
-	transform: rotate(-60deg);
-	content: "35%";
+	transform: rotate(-90deg);
+	content: "48%";
 }
 
 .react:after {
 	background: linear-gradient(transparent 50%, #fff 50%);
 	content: "React";
-	transform: rotate(-60deg) scale(1.5);
+	transform: rotate(-90deg) scale(1.5);
+}
+
+.nodejs {
+	background: linear-gradient(0deg, #026e00 40%, rgba(20, 105, 46, 0.3) 50%);
+	transform: rotate(30deg);
+}
+
+.nodejs:before,
+.nodejs:after {
+	color: #026e00;
+}
+
+.nodejs:before {
+	background: #ffffff content-box;
+	transform: rotate(-30deg);
+	content: "10%";
+}
+
+.nodejs:after {
+	background: linear-gradient(transparent 50%, #ffffff 50%);
+	content: "NodeJS";
+	transform: rotate(-30deg) scale(1.5);
+}
+
+.mysql {
+	background: linear-gradient(0deg, #767bb3 40%, rgba(118, 123, 179, 0.3) 50%);
+	transform: rotate(30deg);
+}
+
+.mysql:before,
+.mysql:after {
+	color: #767bb3;
+}
+
+.mysql:before {
+	background: #ffffff content-box;
+	transform: rotate(-30deg);
+	content: "10%";
+}
+
+.mysql:after {
+	background: linear-gradient(transparent 50%, #ffffff 50%);
+	content: "MySQL";
+	transform: rotate(-30deg) scale(1.5);
 }
