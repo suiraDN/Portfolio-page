@@ -5,7 +5,7 @@
 	list-style: none;
 	text-decoration: none;
 	scroll-behavior: smooth;
-	font-family: "Jost", sans-serif;
+	font-family: 'Jost', sans-serif;
 }
 
 :root {
@@ -66,7 +66,7 @@ header:hover {
 }
 
 .navlist a::after {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 0;
 	height: 2px;
@@ -565,6 +565,10 @@ header.sticky {
 .ends p {
 	font-size: var(--p-font);
 	letter-spacing: 1px;
+}
+
+#currentYear {
+	color: var(--text-color);
 }
 
 @media (max-width: 1425px) {

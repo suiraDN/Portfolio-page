@@ -13,8 +13,8 @@
 .circular-progress,
 .circular-progress:before,
 .circular-progress:after {
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 180px;
 	border-radius: 50%;
 }
 
@@ -29,7 +29,7 @@
 
 .circular-progress:before {
 	padding: 0.5em;
-	line-height: 140px;
+	line-height: 120px;
 	font-size: 2rem;
 	font-weight: bold;
 }
@@ -54,12 +54,12 @@
 .html:before {
 	background: #ffffff content-box;
 	transform: rotate(-165deg);
-	content: "90%";
+	content: '90%';
 }
 
 .html:after {
 	background: linear-gradient(transparent 50%, #ffffff 50%);
-	content: "html5";
+	content: 'html5';
 	transform: rotate(-165deg) scale(1.5);
 }
 
@@ -76,12 +76,12 @@
 .css:before {
 	background: #ffffff content-box;
 	transform: rotate(-150deg);
-	content: "83%";
+	content: '83%';
 }
 
 .css:after {
 	background: linear-gradient(transparent 50%, #fff 50%);
-	content: "css3";
+	content: 'css3';
 	transform: rotate(-150deg) scale(1.5);
 }
 
@@ -98,12 +98,12 @@
 .javascript:before {
 	background: #ffffff content-box;
 	transform: rotate(-120deg);
-	content: "61%";
+	content: '61%';
 }
 
 .javascript:after {
 	background: linear-gradient(transparent 50%, #fff 50%);
-	content: "javascript";
+	content: 'javascript';
 	transform: rotate(-120deg) scale(1.5);
 }
 
@@ -120,12 +120,12 @@
 .react:before {
 	background: #fff content-box;
 	transform: rotate(-90deg);
-	content: "48%";
+	content: '48%';
 }
 
 .react:after {
 	background: linear-gradient(transparent 50%, #fff 50%);
-	content: "React";
+	content: 'React';
 	transform: rotate(-90deg) scale(1.5);
 }
 
@@ -142,12 +142,12 @@
 .nodejs:before {
 	background: #ffffff content-box;
 	transform: rotate(-30deg);
-	content: "10%";
+	content: '10%';
 }
 
 .nodejs:after {
 	background: linear-gradient(transparent 50%, #ffffff 50%);
-	content: "NodeJS";
+	content: 'NodeJS';
 	transform: rotate(-30deg) scale(1.5);
 }
 
@@ -164,11 +164,11 @@
 .mysql:before {
 	background: #ffffff content-box;
 	transform: rotate(-30deg);
-	content: "10%";
+	content: '10%';
 }
 
 .mysql:after {
 	background: linear-gradient(transparent 50%, #ffffff 50%);
-	content: "MySQL";
+	content: 'MySQL';
 	transform: rotate(-30deg) scale(1.5);
 }
