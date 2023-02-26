@@ -146,8 +146,8 @@ section {
 
 .home {
 	min-height: 100vh;
-	height: 100%;
-	width: 100%;
+	/* height: 100%; */
+	max-width: 100%;
 	background: url(./img/background.jpg);
 	background-size: cover;
 	background-position: center;
@@ -234,7 +234,7 @@ span {
 	width: 540px;
 	height: auto;
 	border-radius: 50% 50%;
-	border: 3px solid var(--bg-darkcolor);
+	border: 2px solid var(--bg-darkcolor);
 }
 
 .items {
@@ -279,6 +279,10 @@ span {
 	grid-template-columns: repeat(2, 2fr);
 	align-items: center;
 	grid-gap: 2rem;
+}
+
+.about-img {
+	text-align: center;
 }
 
 .about-img img {
@@ -663,7 +667,7 @@ span {
 	}
 	.home {
 		display: flex;
-		flex-direction: column-reverse;
+		/* flex-direction: column-reverse; */
 	}
 
 	.home-text {
@@ -705,5 +709,9 @@ span {
 		flex-direction: column;
 		max-width: 100%;
 		height: auto;
+	}
+
+	.contact {
+		padding: 30px 5%;
 	}
 }
