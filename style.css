@@ -285,7 +285,9 @@ span {
 	max-width: 100%;
 	width: 540px;
 	height: auto;
+	border-radius: 50% 50% 10px 10px;
 }
+
 .about-text h2 {
 	font-size: var(--h2-font);
 	font-weight: 500;
