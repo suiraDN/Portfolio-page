@@ -233,8 +233,8 @@ span {
 	max-width: 100%;
 	width: 540px;
 	height: auto;
-	/* border-radius: 50% 50% 10px 10px; */
-	/* border: 5px double var(--bg-darkcolor); */
+	border-radius: 50% 50%;
+	border: 3px solid var(--bg-darkcolor);
 }
 
 .items {
