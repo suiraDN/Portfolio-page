@@ -231,7 +231,7 @@ span {
 
 .home-img img {
 	max-width: 100%;
-	width: 540px;
+	width: 500px;
 	height: auto;
 	border-radius: 50% 50%;
 	border: 2px solid var(--bg-darkcolor);
@@ -287,7 +287,7 @@ span {
 
 .about-img img {
 	max-width: 100%;
-	width: 540px;
+	width: 500px;
 	height: auto;
 	border-radius: 50% 50% 10px 10px;
 }
@@ -502,7 +502,7 @@ span {
 	padding: 30px 20%;
 	text-align: center;
 	border-radius: 12px;
-	background-image: url(../img/intro.png);
+	background-image: url(./img/intro.png);
 	background-size: cover;
 }
 
