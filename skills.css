@@ -98,7 +98,7 @@
 .javascript:before {
 	background: #ffffff content-box;
 	transform: rotate(-120deg);
-	content: '61%';
+	content: '67%';
 }
 
 .javascript:after {
@@ -127,6 +127,28 @@
 	background: linear-gradient(transparent 50%, #fff 50%);
 	content: 'React';
 	transform: rotate(-90deg) scale(1.5);
+}
+
+.typescript {
+	background: linear-gradient(0deg, #ec9537 40%, rgba(236, 148, 55, 0.3) 50%);
+	transform: rotate(40deg);
+}
+
+.typescript:before,
+.typescript:after {
+	color: #ec9537;
+}
+
+.typescript:before {
+	background: #ffffff content-box;
+	transform: rotate(-40deg);
+	content: '19%';
+}
+
+.typescript:after {
+	background: linear-gradient(transparent 50%, #ffffff 50%);
+	content: 'Typescript';
+	transform: rotate(-40deg) scale(1.5);
 }
 
 .nodejs {
