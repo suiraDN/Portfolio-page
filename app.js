@@ -31,22 +31,6 @@ sr.reveal('.sub-service,.skills,.about,.portfolio,.service,.cta,.contact', {
 	origin: 'bottom',
 });
 
-// function sendEmail() {
-// 	Email.send({
-// 		SecureToken: "9f6bed1a-863b-4722-a095-451d2a566039",
-// 		To: "dariusnaw@gmail.com",
-// 		From: "dariusnaw@gmail.com",
-// 		Subject: document.getElementById("subject").value,
-// 		Body:
-// 			"Name: " +
-// 			document.getElementById("name").value +
-// 			"<br> Email: " +
-// 			document.getElementById("email").value +
-// 			"<br> Message: " +
-// 			document.getElementById("message").value,
-// 	}).then((message) => alert(message));
-// }
-
 let nameErr = document.getElementById('name');
 let emailErr = document.getElementById('email');
 let subjectErr = document.getElementById('subject');
@@ -141,8 +125,8 @@ function validateForm() {
 	} else {
 		Email.send({
 			SecureToken: '9f6bed1a-863b-4722-a095-451d2a566039',
-			To: 'dariusnaw@gmail.com',
-			From: 'dariusnaw@gmail.com',
+			To: 'dariussnavickass@gmail.com',
+			From: 'dariussnavickass@gmail.com',
 			Subject: document.getElementById('subject').value,
 			Body:
 				'Name: ' +
